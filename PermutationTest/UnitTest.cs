@@ -38,7 +38,7 @@ namespace PermutationTest
         }
         
         [TestMethod]
-        public void IsPermutationString_ABCDE_Null_ReturnedFalse()
+        public void IsPermutationString_ABCDE_Null_ThrowNullReferenceException()
         {
             //arrange
             string str1 = "ABCDE";
